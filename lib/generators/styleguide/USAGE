@@ -1,0 +1,10 @@
+Description:
+    Add a /styleguide route to your app to preview CSS styles
+
+Example:
+    rails generate styleguide
+
+    This will create:
+        app/controllers/styleguide_controller.rb
+        app/views/styleguide/
+        appropriate routes

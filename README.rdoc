@@ -1,0 +1,17 @@
+= styleguide_rails
+
+Adds a `/styleguide` route to your app where you can view HTML
+snippets and see how CSS affects them. Place the snippets into
+`app/views/styleguide` as partials and they will appear in the
+styleguide. To view an individual partial, visit
+`app/views/styleguide/partial_name`.
+
+== Usage
+
+In your Gemfile:
+
+  gem 'styleguide_rails'
+
+Then bundle and run
+
+  rails g styleguide
