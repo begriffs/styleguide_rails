@@ -16,7 +16,7 @@ class StyleguideGenerator < Rails::Generators::Base
   end
 
   def create_routes
-    route "match 'styleguide' => 'styleguide#index'"
-    route "match 'styleguide/:name' => 'styleguide#show'"
+    route "match 'styleguide' => 'styleguide#index' if Rails.env.development?"
+    route "match 'styleguide/:name' => 'styleguide#show' if Rails.env.development?"
   end
 end
