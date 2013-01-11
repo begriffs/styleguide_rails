@@ -1,4 +1,6 @@
 class StyleguideController < ApplicationController
+  layout "styleguide"
+
   def index
     @modules = Hash.new
     Dir.glob('app/views/styleguide/_*.html.erb').each do |mod|
