@@ -1,7 +1,15 @@
 <dl class="monarchy-styleguide">
-<% @modules.each do |module_name, file| %>
- <dt><%= "Module \"#{module_name.capitalize}\"" %></dt>
- <dd><%= render :file => file[:name] %></dd>
- <dd><pre><%= raw file[:contents] %></pre></dd>
-<% end %>
+  <% @modules.each do |module_name, file| %>
+    <dt>
+      <%= %|Module "#{module_name.capitalize}"| %>
+    </dt>
+    <dd>
+      <%= render :file => file[:name] %>
+    </dd>
+    <dd>
+      <pre>
+        <%= raw file[:contents] %>
+      </pre>
+    </dd>
+  <% end %>
 </dl>
