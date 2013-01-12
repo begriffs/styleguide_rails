@@ -6,13 +6,14 @@ class StyleguideGenerator < Rails::Generators::Base
 
     copy_file 'styleguide.html.erb', 'app/views/layouts/styleguide.html.erb'
 
-    empty_directory 'app/views/styleguide'
+    empty_directory 'app/views/styleguide/widgets'
     copy_file 'index.html.erb', 'app/views/styleguide/index.html.erb'
     copy_file 'show.html.erb', 'app/views/styleguide/show.html.erb'
+    copy_file '_widget.html.erb', 'app/views/styleguide/_widget.html.erb'
   end
 
   def supply_basic_guide
-    copy_file '_elements.html.erb', 'app/views/styleguide/_elements.html.erb'
+    copy_file '_elements.html.erb', 'app/views/styleguide/widgets/_elements.html.erb'
   end
 
   def create_routes
