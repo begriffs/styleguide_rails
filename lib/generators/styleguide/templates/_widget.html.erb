@@ -1,0 +1,9 @@
+<dt>
+  <%= %|Widget "#{widget[:name].capitalize}"| %>
+</dt>
+<dd>
+  <%= render :file => widget[:filename] %>
+</dd>
+<dd>
+  <pre><%= widget[:contents] %></pre>
+</dd>
