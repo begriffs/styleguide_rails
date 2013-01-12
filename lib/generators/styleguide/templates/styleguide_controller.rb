@@ -18,8 +18,8 @@ class StyleguideController < ApplicationController
 
   def show
     name = params[:name]
-    widget_dir = "app/views/styleguide/widgets/_%s.html.%s"
-    extension = %w|erb haml|.find do |ext|
+    widget_dir = "app/views/styleguide/widgets/_%s.html%s"
+    extension = %w|.erb .haml|.find do |ext|
       File.exist?(widget_dir % [name, ext])
     end
 
