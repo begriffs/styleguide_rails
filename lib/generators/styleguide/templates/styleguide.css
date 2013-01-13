@@ -7,6 +7,10 @@
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 #styleguide_rails > nav > ul {
   width: 100%;
@@ -81,6 +85,10 @@
 }
 #styleguide_rails > dl > dd {
   margin: 0;
+}
+#styleguide_rails a[name] {
+  display: block;
+  margin-top: 42px;
 }
 
 
