@@ -1,0 +1,68 @@
+#styleguide_rails {
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+#styleguide_rails > nav {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+#styleguide_rails > nav > ul {
+  width: 100%;
+  line-height: 32px;
+}
+#styleguide_rails > nav > ul ul {
+  display: none;
+}
+#styleguide_rails > nav > ul > li:hover > ul {
+  display: block;
+}
+#styleguide_rails > nav ul {
+  background: #efefef;
+  background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+  background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+  background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+#styleguide_rails > nav > ul > li {
+  float: left;
+}
+#styleguide_rails > nav > ul > li:hover {
+  background: #4b545f;
+  background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+  background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+  background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+#styleguide_rails > nav > ul > li:hover > a {
+  color: #fff;
+}
+#styleguide_rails > nav > ul > li a {
+  display: block;
+  padding: 0 10px;
+  color: #757575;
+  text-decoration: none;
+}
+#styleguide_rails > nav > ul ul {
+  background: #5f6975;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+}
+#styleguide_rails > nav > ul ul > li {
+  float: none;
+  border-top: 1px solid #6b727c;
+  border-bottom: 1px solid #575f6a;
+  position: relative;
+}
+#styleguide_rails > nav > ul ul > li > a {
+  color: #fff;
+}
+#styleguide_rails > nav > ul ul > li > a:hover {
+  background: #4b545f;
+}

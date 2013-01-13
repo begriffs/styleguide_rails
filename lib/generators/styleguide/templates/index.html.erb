@@ -1,4 +1,12 @@
-<dl class="monarchy-styleguide">
-  <%= render :partial => 'widget',
-             :collection => @widgets %>
+<nav>
+  <ul>
+    <li><a>Widgets</a>
+    <ul>
+      <%= render :partial => 'widget_link', :collection => @widgets, :as => :widget %>
+    </ul>
+    </li>
+  </ul>
+</nav>
+<dl>
+  <%= render :partial => 'widget', :collection => @widgets %>
 </dl>
