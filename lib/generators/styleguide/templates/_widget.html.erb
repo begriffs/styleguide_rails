@@ -1,4 +1,4 @@
-<a name="<%= widget[:identifier] %>" />
+<a name="<%= widget[:identifier] %>"></a>
 <dt>
   <%= %|Widget "#{widget[:name].capitalize}"| %>
 </dt>
@@ -6,5 +6,5 @@
   <%= render :file => widget[:filename] %>
 </dd>
 <dd>
-  <pre><%= widget[:contents] %></pre>
+  <pre><code class="lang-markup"><%= widget[:contents] %></code></pre>
 </dd>

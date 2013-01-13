@@ -19,8 +19,11 @@ class StyleguideGenerator < Rails::Generators::Base
     copy_file '_widget_link.html.erb', 'app/views/styleguide/_widget_link.html.erb'
   end
 
-  def add_internal_styles
-    copy_file 'styleguide.css', 'app/assets/stylesheets/styleguide.css'
+  def add_private_assets
+    empty_directory 'public/stylesheets'
+    copy_file 'styleguide.css', 'public/stylesheets/styleguide.css'
+    empty_directory 'public/javascripts'
+    copy_file 'styleguide.js', 'public/javascripts/styleguide.js'
   end
 
   def supply_basic_guide
