@@ -91,7 +91,7 @@
 }
 #styleguide_rails a[name] {
   display: block;
-  margin-top: 42px;
+  padding-top: 42px;
 }
 
 
