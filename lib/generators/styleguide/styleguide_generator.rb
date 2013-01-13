@@ -27,6 +27,6 @@ class StyleguideGenerator < Rails::Generators::Base
   end
 
   def supply_basic_guide
-    copy_file '_elements.html.erb', 'app/views/styleguide/widgets/_elements.html.erb'
+    copy_file '_example_elements.html.erb', 'app/views/styleguide/widgets/_example_elements.html.erb'
   end
 end
