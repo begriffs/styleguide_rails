@@ -2,9 +2,9 @@
 <dt>
   <%= %|Widget "#{widget[:name].capitalize}"| %>
 </dt>
-<dd>
+<dd class="preview">
   <%= render :file => widget[:filename] %>
 </dd>
 <dd>
-  <pre><code class="lang-markup"><%= widget[:contents] %></code></pre>
+  <pre><code class="lang-<%= widget[:lang] %>"><%= widget[:contents] %></code></pre>
 </dd>

@@ -86,6 +86,9 @@
 #styleguide_rails > dl > dd {
   margin: 0;
 }
+#styleguide_rails > dl > dd.preview {
+  border: 1px dashed #5f6975;
+}
 #styleguide_rails a[name] {
   display: block;
   margin-top: 42px;
