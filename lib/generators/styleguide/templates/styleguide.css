@@ -89,6 +89,11 @@
 #styleguide_rails > dl > dd.preview {
   border: 1px dashed #5f6975;
 }
+#styleguide_rails > dl > dd > div.location {
+  font-style: italic;
+  color: #ddd;
+  margin-top: 0.5em;
+}
 #styleguide_rails a[name] {
   display: block;
   padding-top: 42px;
@@ -123,8 +128,8 @@ pre[class*="language-"] {
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
-  margin: .5em 0;
-  overflow: auto;	
+  margin: 0 0 0.5em 0;
+  overflow: auto;
 }
 
 :not(pre) > code[class*="language-"],
