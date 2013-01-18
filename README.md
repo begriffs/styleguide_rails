@@ -1,3 +1,5 @@
+![Logo](styleguide_rails/raw/master/illustration/logo.png "Logo")
+
 Adds a [living style
 guide](http://24ways.org/2011/front-end-style-guides/) to your Rails
 application with one command.
