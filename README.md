@@ -29,7 +29,7 @@ the markup and teach good habits.
 Add this gem to your Rails Gemfile, run `bundle`, and execute the
 styleguide generator
 
-    $ rails generate styleguide
+    $ rails generate styleguide:install
 
 That's it, you're done, you have a styleguide available at
 `http://yourapp.com/styleguide`. If you visit that path you'll see there
