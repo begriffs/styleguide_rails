@@ -26,8 +26,11 @@ the markup and teach good habits.
 
 ## Usage
 
-Add this gem to your Rails Gemfile, run `bundle`, and execute the
-styleguide generator
+Add this gem to your Rails Gemfile:
+
+    gem 'styleguide_rails'
+
+Run `bundle`, and execute the styleguide generator:
 
     $ rails generate styleguide:install
 
