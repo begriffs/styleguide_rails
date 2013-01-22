@@ -32,7 +32,7 @@ Add this gem to your Rails Gemfile:
 
 Run `bundle`, and execute the styleguide generator:
 
-    $ rails generate styleguide:install
+    $ rails generate styleguide
 
 That's it, you're done, you have a styleguide available at
 `http://yourapp.com/styleguide`. If you visit that path you'll see there
