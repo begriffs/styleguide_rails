@@ -26,10 +26,13 @@ the markup and teach good habits.
 
 ## Usage
 
-Add this gem to your Rails Gemfile, run `bundle`, and execute the
-styleguide generator
+Add this gem to your Rails Gemfile:
 
-    $ rails generate styleguide:install
+    gem 'styleguide_rails'
+
+Run `bundle`, and execute the styleguide generator:
+
+    $ rails generate styleguide
 
 That's it, you're done, you have a styleguide available at
 `http://yourapp.com/styleguide`. If you visit that path you'll see there
