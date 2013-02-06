@@ -1,4 +1,4 @@
-![Logo](styleguide_rails/raw/master/illustration/logo.png "Logo")
+![Logo](illustration/logo.png "Logo")
 
 Adds a [living style
 guide](http://24ways.org/2011/front-end-style-guides/) to your Rails
@@ -39,7 +39,7 @@ That's it, you're done, you have a styleguide available at
 is an example widget already created:
 
 <p align="center">
-  <img src="styleguide_rails/raw/master/illustration/screenshot.png" alt="Screenshot" />
+  <img src="illustration/screenshot.png" alt="Screenshot" />
 </p>
 
 To add a new widget, create a partial in `app/views/styleguide/widgets`
