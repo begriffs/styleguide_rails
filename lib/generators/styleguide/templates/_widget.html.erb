@@ -1,6 +1,6 @@
 <a name="<%= widget[:name] %>"></a>
 <dt>
-  <%= %|Widget "#{widget[:name].capitalize}"| %>
+  <%= widget[:name].titleize %>
 </dt>
 <dd class="preview">
   <%= render :file => widget[:filename] %>
