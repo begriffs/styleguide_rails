@@ -87,7 +87,10 @@
   margin: 0;
 }
 #styleguide_rails > dl > dd.preview {
-  border: 1px dashed #5f6975;
+  border-bottom: 1px dashed #CCC;
+  border-left: 1px dashed #CCC;
+  border-right: 1px dashed #CCC;
+  border-top: 1px dashed #FFF;
 }
 #styleguide_rails > dl > dd > div.location {
   font-style: italic;
