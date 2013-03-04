@@ -71,6 +71,9 @@
 #styleguide_rails > nav > ul ul > li > a:hover {
   background: #4b545f;
 }
+#styleguide_rails > nav > #width-options {
+  display: none;
+}
 #styleguide_rails > dl {
   padding: 0 10px;
   margin: 0;
@@ -92,6 +95,7 @@
   border-left: 1px dashed #CCC;
   border-right: 1px dashed #CCC;
   border-top: 1px dashed #FFF;
+  margin: 0 auto;
 }
 #styleguide_rails > dl > dd > div.location {
   font-style: italic;
