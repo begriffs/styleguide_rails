@@ -7,9 +7,9 @@ class StyleguideController < ApplicationController
     @widgets = widget_files.reduce([]) do |widgets, filename|
       lang = filename.match(/haml$/) ? 'haml' : 'markup'
 
-      name = File.basename(filename)
-                 .sub(/.html.*/, '')
-                 .sub(/^_/, '')
+      name = File.basename(filename).
+                 sub(/.html.*/, '').
+                 sub(/^_/, '')
 
       widgets << { :name       => name,
                    :filename   => filename,
