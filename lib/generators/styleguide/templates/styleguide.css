@@ -72,7 +72,8 @@
 #styleguide_rails > nav > ul ul > li a {
   color: #fff;
 }
-#styleguide_rails > nav > ul ul > li:hover {
+#styleguide_rails > nav > ul ul > li:hover,
+#styleguide_rails > nav > ul ul > li.selected {
   background: #4b545f;
 }
 #styleguide_rails > nav > #width-options {
