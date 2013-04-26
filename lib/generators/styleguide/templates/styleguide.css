@@ -55,7 +55,6 @@
   padding: 0;
   position: absolute;
   top: 100%;
-  z-index: 100;
 }
 #styleguide_rails > nav > ul ul > li {
   float: none;
@@ -94,6 +93,8 @@
 #styleguide_rails > dl > dd.preview {
   margin: 0 auto;
   border: 1px solid white;
+  position: relative;
+  z-index: -1;
 }
 #styleguide_rails > dl > dd.preview:hover {
   border-bottom: 1px dashed #CCC;
