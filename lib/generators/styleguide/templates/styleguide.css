@@ -17,9 +17,6 @@
   width: 100%;
   line-height: 32px;
 }
-#styleguide_rails > nav > ul ul {
-  display: none;
-}
 #styleguide_rails > nav ul {
   background: #efefef;
   background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
@@ -41,10 +38,7 @@
 }
 #styleguide_rails > nav > ul > li:hover,
 #styleguide_rails > nav > ul > li.open {
-  background: #4b545f;
-  background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-  background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-  background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+  background: #545454;
 }
 #styleguide_rails > nav > ul > li:hover > a,
 #styleguide_rails > nav > ul > li.open > a {
@@ -56,16 +50,18 @@
   color: #757575;
 }
 #styleguide_rails > nav > ul ul {
-  background: #5f6975;
+  display: none;
+  background: #757575;
   padding: 0;
   position: absolute;
   top: 100%;
+  z-index: 100;
 }
 #styleguide_rails > nav > ul ul > li {
   float: none;
   padding: 0 10px;
-  border-top: 1px solid #6b727c;
-  border-bottom: 1px solid #575f6a;
+  border-top: 1px solid #7c7c7c;
+  border-bottom: 1px solid #545454;
   position: relative;
   color: #fff;
 }
@@ -74,7 +70,7 @@
 }
 #styleguide_rails > nav > ul ul > li:hover,
 #styleguide_rails > nav > ul ul > li.selected {
-  background: #4b545f;
+  background: #545454;
 }
 #styleguide_rails > nav > #width-options {
   display: none;
@@ -96,22 +92,40 @@
   margin: 0;
 }
 #styleguide_rails > dl > dd.preview {
+  margin: 0 auto;
+  border: 1px solid white;
+}
+#styleguide_rails > dl > dd.preview:hover {
   border-bottom: 1px dashed #CCC;
   border-left: 1px dashed #CCC;
   border-right: 1px dashed #CCC;
   border-top: 1px dashed #FFF;
-  margin: 0 auto;
 }
 #styleguide_rails > dl > dd > div.location {
   font-style: italic;
   color: #ddd;
   margin-top: 0.5em;
+  cursor: pointer;
+}
+#styleguide_rails > dl > dd > div.location:after {
+  font-style: normal;
+  content: '\25B2';
+  padding-left: 5px;
+}
+#styleguide_rails > dl > dd > div.location.show-code:after {
+  content: '\25BC';
 }
 #styleguide_rails a[name] {
   display: block;
   padding-top: 42px;
 }
 
+pre[class*="language-"] {
+  display: none;
+}
+div.show-code + pre[class*="language-"] {
+  display: block;
+}
 
 /**
  * prism.js default theme for JavaScript, CSS and HTML
