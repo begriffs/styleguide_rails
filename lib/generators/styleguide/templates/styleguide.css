@@ -105,12 +105,27 @@
   font-style: italic;
   color: #ddd;
   margin-top: 0.5em;
+  cursor: pointer;
+}
+#styleguide_rails > dl > dd > div.location:after {
+  font-style: normal;
+  content: '\25B2';
+  padding-left: 5px;
+}
+#styleguide_rails > dl > dd > div.location.show-code:after {
+  content: '\25BC';
 }
 #styleguide_rails a[name] {
   display: block;
   padding-top: 42px;
 }
 
+pre[class*="language-"] {
+  display: none;
+}
+div.show-code + pre[class*="language-"] {
+  display: block;
+}
 
 /**
  * prism.js default theme for JavaScript, CSS and HTML
