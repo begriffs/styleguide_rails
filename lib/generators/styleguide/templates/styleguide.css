@@ -17,9 +17,6 @@
   width: 100%;
   line-height: 32px;
 }
-#styleguide_rails > nav > ul ul {
-  display: none;
-}
 #styleguide_rails > nav ul {
   background: #efefef;
   background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
@@ -53,10 +50,12 @@
   color: #757575;
 }
 #styleguide_rails > nav > ul ul {
+  display: none;
   background: #757575;
   padding: 0;
   position: absolute;
   top: 100%;
+  z-index: 100;
 }
 #styleguide_rails > nav > ul ul > li {
   float: none;
