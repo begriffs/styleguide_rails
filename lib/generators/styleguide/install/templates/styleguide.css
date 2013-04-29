@@ -8,6 +8,7 @@
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
+  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -94,7 +95,6 @@
   margin: 0 auto;
   border: 1px solid white;
   position: relative;
-  z-index: -1;
 }
 #styleguide_rails > dl > dd.preview:hover {
   border-bottom: 1px dashed #CCC;
