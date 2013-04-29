@@ -42,8 +42,12 @@ is an example widget already created:
   <img src="illustration/screenshot.png" alt="Screenshot" />
 </p>
 
-To add a new widget, create a partial in `app/views/styleguide/widgets`
-and it will appear in the style guide. These partials support templating
+To add a new widget, run
+
+    $ rails generate styleguide:widget NAME
+
+which will create a partial in `app/views/styleguide/widgets` and it
+will appear in the style guide. These partials support templating
 languages like Haml if you have the gems installed.
 
 ## Credits
