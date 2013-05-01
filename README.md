@@ -57,6 +57,15 @@ Thanks to project
 and to [Adam Braus](https://github.com/ajbraus) for suggesting the
 idea for this gem.
 
+## Upgrading
+
+To overwrite an installation of an earlier version, run
+
+    $ bundle update --source styleguide_rails
+    $ rails generate styleguide:install -f
+
+Don't worry, this will preserve any existing widgets.
+
 ## License
 
 Styleguide_rails is Copyright © 2012 - 2013 Joe Nelson. It is free

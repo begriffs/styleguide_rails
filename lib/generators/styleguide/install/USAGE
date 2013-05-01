@@ -1,0 +1,4 @@
+Created a /styleguide route in your app to preview CSS styles.
+
+To create a new widget in the guide, run
+$ rails generate styleguide:widget name_of_widget
