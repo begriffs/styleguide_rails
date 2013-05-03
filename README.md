@@ -1,4 +1,4 @@
-![Logo](illustration/logo.png "Logo")
+<img src="illustration/logo.png" alt="Styleguide Rails Logo" align="right" />
 
 Adds a [living style
 guide](http://24ways.org/2011/front-end-style-guides/) to your Rails
