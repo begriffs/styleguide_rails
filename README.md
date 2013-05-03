@@ -50,6 +50,19 @@ which will create a partial in `app/views/styleguide/widgets` and it
 will appear in the style guide. These partials support templating
 languages like Haml if you have the gems installed.
 
+## Live Reloading
+
+Styleguide Rails can reload your browser whenever you change a CSS file
+or a widget. This instant feedback is helpful for adjusting the styles.
+To enable live reloading,
+
+* Install the [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+  plugin for Google Chrome.
+* Install the Guard gem in your Rails app: `gem install guard`
+* Run guard in a new terminal window: `guard`
+* Be sure you enable the LiveReload plugin in Chrome. Just click its
+  icon.
+
 ## Credits
 
 Thanks to project

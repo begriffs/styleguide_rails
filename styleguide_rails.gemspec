@@ -6,7 +6,7 @@ require 'styleguide_rails/version'
 Gem::Specification.new do |gem|
   gem.name          = "styleguide_rails"
   gem.version       = StyleguideRails::VERSION
-  gem.authors       = ["Joe Nelson", "Adam Braus"]
+  gem.author        = "Joe Nelson"
   gem.email         = ["cred+github@begriffs.com"]
   gem.description   = %q{Add living CSS styleguide to your Rails project}
   gem.summary       = %q{Generates a controller, route, and views for your styleguide}
@@ -18,4 +18,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency "rails", ">= 3.0.0"
+  gem.add_dependency "rb-readline"
+  gem.add_dependency "guard-livereload", "~> 1.4.0"
 end
