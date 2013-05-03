@@ -32,7 +32,7 @@ Add this gem to your Rails Gemfile:
 
 Run `bundle`, and execute the styleguide generator:
 
-    $ rails generate styleguide:install
+    rails generate styleguide:install
 
 That's it, you're done, you have a styleguide available at
 `http://yourapp.com/styleguide`. If you visit that path you'll see there
@@ -44,7 +44,7 @@ is an example widget already created:
 
 To add a new widget, run
 
-    $ rails generate styleguide:widget NAME
+    rails generate styleguide:widget NAME
 
 which will create a partial in `app/views/styleguide/widgets` and it
 will appear in the style guide. These partials support templating
@@ -61,8 +61,8 @@ idea for this gem.
 
 To overwrite an installation of an earlier version, run
 
-    $ bundle update --source styleguide_rails
-    $ rails generate styleguide:install -f
+    bundle update --source styleguide_rails
+    rails generate styleguide:install -f
 
 Don't worry, this will preserve any existing widgets.
 
