@@ -9,7 +9,7 @@ module Styleguide
       desc "Creates a widget in your styleguide"
 
       def create_widget
-        supported_template_engines = [:haml, :erb]
+        supported_template_engines = [:haml, :erb, :slim]
         destination_name = name.gsub(/-/, '_').parameterize(sep = '_')
         template_engine = Rails.configuration.generators.options[:rails][:template_engine]
 
