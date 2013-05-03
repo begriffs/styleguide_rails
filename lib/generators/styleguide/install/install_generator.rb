@@ -10,7 +10,7 @@ module Styleguide
       end
 
       def create_route
-        route "match 'styleguide' => 'styleguide#index' if Rails.env.development?"
+        route "get 'styleguide' => 'styleguide#index' if Rails.env.development?"
       end
 
       def create_views
