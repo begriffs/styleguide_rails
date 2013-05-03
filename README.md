@@ -58,7 +58,7 @@ To enable live reloading,
 
 * Install the [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
   plugin for Google Chrome.
-* Install the Guard gem in your Rails app: `gem install guard`
+* Install the Guard gem in your Rails app by adding `gem 'guard'` to your `Gemfile`
 * Run guard in a new terminal window: `guard`
 * Be sure you enable the LiveReload plugin in Chrome. Just click its
   icon.
