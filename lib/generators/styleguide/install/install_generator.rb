@@ -34,8 +34,8 @@ module Styleguide
         copy_file '_example_elements.html', 'app/views/styleguide/widgets/_example_elements.html'
       end
 
-      def show_readme
-        readme('../USAGE')
+      def enable_guard_reloading
+        copy_file 'Guardfile', 'Guardfile'
       end
     end
   end
