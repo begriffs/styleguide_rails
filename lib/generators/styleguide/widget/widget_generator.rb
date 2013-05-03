@@ -10,7 +10,8 @@ module Styleguide
 
       def create_widget
         destination_name = name.gsub(/-/, '_').parameterize(sep = '_')
-        copy_file 'widget.html.erb', "app/views/styleguide/widgets/_#{destination_name}.html.erb"
+        template_engine = Rails.configuration.generators.options[:rails][:template_engine]
+        copy_file "widget.html.#{template_engine}", "app/views/styleguide/widgets/_#{destination_name}.html.#{template_engine}"
       end
     end
   end
