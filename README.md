@@ -1,10 +1,14 @@
-<img src="illustration/logo.png" alt="Styleguide Rails Logo" align="right" />
-
 Adds a [living style
 guide](http://24ways.org/2011/front-end-style-guides/) to your Rails
 application with one command.
 
-If you don't use a CSS style guide yet, here's why you need to start:
+<p align="center">
+  <a href="http://youtu.be/V4L4oHtL1Sk"><img src="illustration/video_still.png" /></a>
+</p>
+
+If you don't use a CSS style guide yet, here's why you should start:
+
+<img src="illustration/logo.png" alt="Styleguide Rails Logo" align="right" />
 
 * __It Makes Testing Easier.__ With all your styles in one place you can easily
 check for browser bugs, resizing issues, text zoom issues, and printable
