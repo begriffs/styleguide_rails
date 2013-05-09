@@ -137,9 +137,10 @@ div.show-code + pre[class*="language-"] {
  * Based on dabblet (http://dabblet.com)
  * @author Lea Verou
  */
-code[class*="language-"],
-pre[class*="language-"] {
+#styleguide_rails code[class*="language-"],
+#styleguide_rails pre[class*="language-"] {
   color: black;
+  background: #f5f2f0;
   text-shadow: 0 1px white;
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
   direction: ltr;
@@ -158,19 +159,19 @@ pre[class*="language-"] {
 }
 
 /* Code blocks */
-pre[class*="language-"] {
+#styleguide_rails pre[class*="language-"] {
   padding: 1em;
   margin: 0 0 0.5em 0;
   overflow: auto;
 }
 
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
+#styleguide_rails :not(pre) > code[class*="language-"],
+#styleguide_rails pre[class*="language-"] {
   background: #f5f2f0;
 }
 
 /* Inline code */
-:not(pre) > code[class*="language-"] {
+#styleguide_rails :not(pre) > code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
 }
