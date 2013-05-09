@@ -96,6 +96,7 @@
   margin: 0 auto;
   border: 1px solid white;
   position: relative;
+  overflow: hidden;
 }
 #styleguide_rails > dl > dd.preview:hover {
   border-bottom: 1px dashed #CCC;
