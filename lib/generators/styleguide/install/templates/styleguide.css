@@ -67,6 +67,7 @@
 }
 #styleguide_rails > nav > ul ul > li a {
   color: #fff;
+  display: block;
 }
 #styleguide_rails > nav > ul ul > li:hover,
 #styleguide_rails > nav > ul ul > li.selected {
