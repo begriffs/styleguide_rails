@@ -19,4 +19,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "rails", ">= 3.0.0"
   gem.add_dependency "guard-livereload", "~> 1.4.0"
+  gem.add_dependency "guard", "~> 1.8"
 end
