@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency "rails", ">= 3.0.0"
-  gem.add_dependency "guard-livereload", "~> 1.4.0"
-  gem.add_dependency "guard", "~> 1.8"
+  gem.add_dependency "guard-livereload", "~> 2.4.0"
+  gem.add_dependency "guard", "~> 2.13"
 end

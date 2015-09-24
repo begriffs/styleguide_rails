@@ -62,7 +62,7 @@ To enable live reloading,
 
 * Install the [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
   plugin for Google Chrome.
-* Add `gem 'guard'` to your `Gemfile`
+* Add `gem 'guard'` and `gem 'guard-livereload', '~> 2.4', require: false` to your `Gemfile`
 * Run `bundle`
 * Run `guard` in a new terminal window
 * Be sure you enable the LiveReload plugin in Chrome. Just click its
